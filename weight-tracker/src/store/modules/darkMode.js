@@ -13,7 +13,9 @@ const actions = {
 };
 
 const mutations = {
-  changeMode: (state) => (state.darkMode = !state.darkMode),
+  changeMode: (state) => {
+    state.darkMode = !state.darkMode;
+  },
 };
 
 export default {
