@@ -47,7 +47,7 @@ p {
 }
 
 .light {
-  background: yellow;
-  border: 1px solid blue;
+  background: white;
+  border: 1px solid black;
 }
 </style>
