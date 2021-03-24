@@ -5,16 +5,19 @@
   >
     <Toggle class="dark-mode-toggle" />
     <h1>Weight Tracker</h1>
+    <AddWeight />
   </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
 import Toggle from "./components/Toggle";
+import AddWeight from "./components/AddWeight";
 export default {
   name: "App",
   components: {
-    Toggle
+    Toggle,
+    AddWeight
   },
   computed: mapGetters(["checkMode"])
 };
