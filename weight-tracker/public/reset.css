@@ -46,3 +46,32 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* End of reset */
+
+html,
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}

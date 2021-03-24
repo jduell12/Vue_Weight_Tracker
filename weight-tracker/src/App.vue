@@ -1,5 +1,7 @@
 <template>
-  <div id="app"></div>
+  <div id="app" class="dark-mode-on">
+    <h1>Weight Tracker</h1>
+  </div>
 </template>
 
 <script>
@@ -9,4 +11,7 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#app {
+}
+</style>
